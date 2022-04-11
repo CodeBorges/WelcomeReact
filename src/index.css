@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+    color:white;
+    text-align: center;
+}
+
+h2, h3{
+   color: #000013;
+   font-weight: 300px;
+}
+
+
