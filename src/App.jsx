@@ -74,7 +74,7 @@ export default _ =>
             </Card>
 
             <Card titulo="#12 - Contador">
-                <Contador numeroInicial={10}></Contador>
+                <Contador numeroInicial={""}></Contador>
             </Card>
         </div>
     </div>
