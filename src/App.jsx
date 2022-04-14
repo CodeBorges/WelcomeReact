@@ -17,6 +17,8 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import SetInput from "./components/formulario/SetInput";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
+
 
 
 export default _ =>
@@ -75,6 +77,10 @@ export default _ =>
 
             <Card titulo="#12 - Contador">
                 <Contador numeroInicial={""}></Contador>
+            </Card>
+
+            <Card titulo="#13 - Mega">
+               <Mega qtde={8}></Mega>
             </Card>
         </div>
     </div>
